@@ -1,15 +1,11 @@
 # List slicing in Python
-
 numbers = [25,35,15,45,55]
-
 # items from index 2 to index 4
 print(numbers[2:5])
-
 # items from index 5 to end
 print(numbers[5:])
 
-
-
+<br>
 
 # items beginning to end
 print(numbers[:])
@@ -20,9 +16,7 @@ numbers = [10, 30, 40]
 numbers.insert(1, 20)
 print(numbers) # [10, 20, 30, 40]
 
-
-
-
+<br>
 
 languages = ['Python', 'Swift', 'C++', 'C', 'Java', 'Rust', 'R']
 
@@ -38,9 +32,7 @@ print(languages) # ['Python', 'C++', 'C', 'Java', 'Rust']
 del languages[0 : 2]  # ['C', 'Java', 'Rust']
 print(languages)
 
- 
- 
-
+<br>
 
 languages = ['Python', 'Swift', 'C++', 'C', 'Java', 'Rust', 'R']
 
